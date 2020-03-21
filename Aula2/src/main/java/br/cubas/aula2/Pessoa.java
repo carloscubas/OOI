@@ -8,6 +8,8 @@ public class Pessoa {
     int idade;
     String cpf;
     String rg;
+    double altura;
+    double peso;
 
     // métodos - ações 
     public int diasQueViveu(){ // assinatura do método
@@ -15,7 +17,12 @@ public class Pessoa {
         return totalDias;
     }
 
-    //dias que ela viveu
-//onde ela mora
-//sera que tem mae
+    public String ondeMora(){
+        return endereco;
+    }
+
+    public double valorImc(){
+        return peso / (altura * altura);
+    }
+
 }
