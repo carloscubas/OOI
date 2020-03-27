@@ -1,0 +1,8 @@
+Conta
+// O que ela tem
+	- saldo
+
+// O que ela faz
+	- deposito
+	- saque
+	- transferencia
